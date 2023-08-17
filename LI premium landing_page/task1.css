@@ -1,11 +1,11 @@
-/* Reset default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Basic styling */
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -99,7 +99,7 @@ footer {
     color: #fff;
 }
 
-/* Media queries for responsive design */
+
 @media (max-width: 768px) {
     header {
         text-align: center;
