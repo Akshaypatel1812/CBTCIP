@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .display {
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+  }
+  
+  .btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  #equals {
+    background-color: #64c754;
+    color: #fff;
+  }
+  
+  #equals:hover {
+    background-color: #4fa342;
+  }
+  
+  #clear,
+  #backspace {
+    background-color: #e57373;
+    color: #fff;
+  }
+  
+  #clear:hover,
+  #backspace:hover {
+    background-color: #c94c4c;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .calculator {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #444444;
+    color: white;
+    width: 300px;
+    overflow: hidden;
+  }
+  
+  .display {
+    font-size: 36px;
+    padding: 15px;
+    background-color: #444;
+    text-align: right;
+  }
+  
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+  }
+  
+  .btn {
+    font-size: 24px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #959393;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  
+  #equals {
+    background-color: #ff9f1a;
+    color: #333;
+  }
+  
+  #equals:hover {
+    background-color: #e68a00;
+  }
+  
+  #clear,
+  #backspace {
+    background-color: #ff6b6b;
+  }
+  
+  #clear:hover,
+  #backspace:hover {
+    background-color: #e35252;
+  }
+  
+  #decimal {
+    font-size: 28px;
+  }
+  
+  #decimal:hover {
+    background-color: #5e5e5e;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 400px) {
+    .calculator {
+      width: 100%;
+    }
+  }
+  
